@@ -43,7 +43,7 @@ id_order INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 id_customer INT NOT NULL,
 id_address INT NOT NULL,
 date_of_order DATETIME DEFAULT current_timestamp NOT NULL,
-status_order ENUM('pending','processing','shipped','delivered','canceled'),
+status_order ENUM('pending','processing','shipped','delivered','completed','canceled'),
 FOREIGN KEY (id_customer) REFERENCES customers(id_customer),
 FOREIGN KEY (id_address) REFERENCES customer_address(id_address)
 );
