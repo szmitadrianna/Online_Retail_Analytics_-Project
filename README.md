@@ -1,4 +1,4 @@
-# Online_Retail_Analytics_-Project
+# E-commerce sales data analysis project
 *Database schema for an e-commerce store, including table creation scripts and sample data.*
 
 Welcome to my first data project, where I showcase the skills I have independently developed over the past few months.
