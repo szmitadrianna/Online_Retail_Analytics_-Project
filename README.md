@@ -24,7 +24,7 @@ For this project, I chose to work with MySQL Workbench over other database manag
 
 ### Database Structure
 
-* products – product information i.e. id, name, unit_price, id_category, size)
+* products – product information i.e. id, name, SKU unit_price, id_category, size)
 * customers – customer data i.e. name, surname, email, phone number, customer type (registered, guest), registration_date
 * customer addresses – address id, customer id, address type (billing, delivery), street, city, postal code, country
 * orders – order data (order id, customer id, order date, order status
