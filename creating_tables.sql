@@ -10,6 +10,7 @@ is_active BOOLEAN);
 CREATE TABLE IF NOT EXISTS products (
 id_product INT PRIMARY KEY AUTO_INCREMENT,
 product_name VARCHAR(60) NOT NULL,
+SKU VARCHAR(16) NOT NULL UNIQUE,
 unit_price DECIMAL(10,2) NOT NULL,
 id_category INT,
 product_size ENUM('S', 'M', 'L')
