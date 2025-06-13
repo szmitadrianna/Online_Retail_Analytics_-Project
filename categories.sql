@@ -1,0 +1,1 @@
+SELECT * FROM gymglamour_shop.categories;
