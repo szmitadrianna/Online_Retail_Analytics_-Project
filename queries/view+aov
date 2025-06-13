@@ -1,0 +1,6 @@
+CREATE VIEW sum_of_order AS
+SELECT id_order, SUM(quantity * unit_price_gross) AS sum_of_order FROM order_details
+GROUP BY id_order
+LIMIT 1000;
+
+SELECT AVG(sum_of_order) AS AOV FROM sum_of_order;
