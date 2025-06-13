@@ -1,0 +1,7 @@
+SELECT 
+  DATE_FORMAT(date_of_order, '%Y-%m') AS month,
+  DATE_FORMAT(date_of_order, '%M') AS month_name,
+  SUM(quantity * unit_price_gross) AS monthly_revenue
+FROM monthly_revenue
+GROUP BY DATE_FORMAT(date_of_order, '%Y-%m'), DATE_FORMAT(date_of_order, '%M')
+ORDER BY DATE_FORMAT(date_of_order, '%Y-%m');
