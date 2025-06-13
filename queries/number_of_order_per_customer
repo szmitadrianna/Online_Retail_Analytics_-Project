@@ -1,0 +1,2 @@
+SELECT (id_customer), COUNT(id_order) AS total_orders 
+FROM orders GROUP BY id_customer ORDER BY total_orders DESC LIMIT 1000;
