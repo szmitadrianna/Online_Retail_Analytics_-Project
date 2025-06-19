@@ -1,0 +1,2 @@
+SELECT date_format(date_of_order,'%y-%m') AS month, COUNT(date_of_order) FROM gymglamour_shop.orders
+group by month;
