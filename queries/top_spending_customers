@@ -1,0 +1,6 @@
+SELECT id_customer, SUM(quantity * unit_price_gross) AS total_purchases
+FROM order_details
+LEFT JOIN orders ON order_details.id_order = orders.id_order
+GROUP BY id_customer
+ORDER BY total_purchases DESC
+LIMIT 3;
