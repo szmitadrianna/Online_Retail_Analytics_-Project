@@ -1,0 +1,3 @@
+SELECT payment_method, COUNT(payment_method) AS total 
+from order_details 
+group by payment_method;
