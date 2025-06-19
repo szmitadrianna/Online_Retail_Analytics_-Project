@@ -1,0 +1,5 @@
+SELECT id_product, sum(quantity) AS total_quantity
+FROM order_details
+GROUP BY id_product
+ORDER BY total_quantity DESC
+LIMIT 3;
