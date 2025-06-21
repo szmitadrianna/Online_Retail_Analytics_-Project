@@ -4,10 +4,10 @@
 Welcome to my first data project, where I showcase the skills I have independently developed over the past few months.
 The main objective of this project was to design and build a relational database from scratch for a sample online store using MySQL. The entire structure was designed according to the principles of Third Normal Form (3NF) to ensure data integrity and consistency.
 
-### ERD Diagram 
-
 The product data (names, categories, store name) was inspired by publicly available information from a real-life example — Gym Glamour — and was used solely for educational and demonstrative purposes. All other data, such as product prices, stock levels, customer information, and sales records, is entirely fictional and manually created for the purpose of this project.
-No private data has been used. Every table, record, and query has been carefully crafted to reflect a realistic e-commerce environment and to demonstrate my ability to work with relational databases, SQL, and data modeling.
+No private data has been used. Every table, record, and query has been carefully crafted to reflect a realistic e-commerce environment and to demonstrate my ability to work with relational databases, SQL, and data modeling. The main objective of this project was to design and build a relational database from scratch for a sample online store using MySQL. The entire structure was designed according to the principles of Third Normal Form (3NF) to ensure data integrity and consistency.
+
+Every table, record, and query has been carefully crafted to reflect a realistic e-commerce environment and to demonstrate my ability to work with relational databases, SQL, and data modeling.
 
 ## Project scope
 
@@ -35,49 +35,6 @@ For this project, I chose to work with MySQL Workbench over other database manag
 ### Password Handling
 In the table *users*, user passwords are stored as secure hashes rather than plain text.For the purpose of this portfolio project, sample password hashes have been generated manually.
 [https://github.com/szmitadrianna/Online_Retail_Analytics_-Project/blob/main/password_hash.sql]
-
-# SQL queries
-* Total Revenue for a Year (in this case for 2024)
-* Monthly Revenue
-* Number of Orders per Customer
-* Average Order Value (AOV)
-* Revenue per Country
-* Top Spending Customers
-* Number of Orders per Month
-* Most frequently chosen payment method
-* Best Seller by number of products sold
-
-### 
-Projects
-About Me
-Contact
-E-commerce sales data analysis project
-21.06.2025
-
-E-Commerce Sales Insights: SQL & Power BI Dashboard
-
-GitHub
-LinkedIn
-1.Project Introduction
-Welcome to my first end-to-end data project, where I showcase the skills I have independently developed over the past few months.
-
-The main objective of this project was to design and build a relational database from scratch for a sample online store using MySQL. The entire structure was designed according to the principles of Third Normal Form (3NF) to ensure data integrity and consistency.
-
-The product data (names, categories, store name) was inspired by available information from a real-life example — Gym Glamour — shop and was used solely for educational and demonstrative purposes. All other data, such as product prices, stock levels, customer information, and sales records, is entirely fictional and manually created for the purpose of this project.
-No private data has been used.
-
-Every table, record, and query has been carefully crafted to reflect a realistic e-commerce environment and to demonstrate my ability to work with relational databases, SQL, and data modeling.
-
-2. Project scope
-Designed the database structure in accordance with Third Normal Form (3NF)
-Created a complete relational database schema from scratch
-Built tables and defined relationships using MySQL Workbench
-Manually added sample data to simulate a realistic online store environment
-Developed a set of analytical SQL queries for business insights and reporting
-Developed reports and data visualizations in PowerBI
-Tool Selection: MySQL Workbench
-
-For this project, I chose to work with MySQL Workbench over other database management tools such as SQL Server Management Studio (SSMS). The reason was only the fact that for me is ease-to-use and I was able to create ERD diagram directly from the schema without creating tables.
 
 # SQL queries
 * Total Revenue for a Year (in this case for 2024)
